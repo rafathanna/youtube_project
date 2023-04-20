@@ -1,0 +1,139 @@
+*{
+    border:0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 10px;
+}
+body{
+font-family: sans-serif;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 16px;
+    height: 56px;
+}
+.left-section{
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+}
+.right-section i {
+padding: 0 3px;
+}
+.mid-section form input{
+width: 355px;
+border: solid 1px #3d3d3d;
+font-size: 16px;
+padding: 5px;
+border-radius: 5px 0 0 5px;
+border-right: none;
+padding-right: 0;
+}
+.mid-section form button{
+    width: 40px;
+    height: 32px;
+    margin-left: 0;
+    border: solid 1px #3d3d3d;
+    border-radius: 0 5px 5px 0;
+    background-color: #f8f8f8;
+    cursor: pointer;
+}
+.mid-section form button:hover{
+    border-color: #c6c6c6 ;
+    background-color:#f0f0f0;
+}
+.mid-section form .mic{
+    border-radius: 50%;
+    padding: 5px;
+    background-color: #e1dcdc;
+    border: solid 1px #e1dcdc;
+    cursor: pointer;
+}
+.youtube{
+    padding-left: 10px;
+    color: red;
+}
+.content-area{
+    height: calc(100vh - 56px);
+    display: flex;
+    background-color: #f9f9f9;
+}
+aside{
+    height: 100%;
+    width:280px;
+    background-color: white;
+    overflow-y: auto;
+}
+nav{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin: 15px 0;
+    padding-right: 15px;
+}
+.nav-link{
+    display: flex;
+    align-items: center;
+    padding: 10px 16px;
+    text-decoration: none;
+    color: black;
+}
+.nav-link:hover{
+    background-color: rgba(0, 0, 0, 0.1);
+}
+#first-link{
+    font-weight: 600;
+}
+.nav-link span{
+    margin-left: 24px;
+    font-size: 1.4rem;
+    font-weight: 500;
+    text-transform: capitalize;
+    color: #030303;
+}
+
+.active{
+    background-color: #e1dcdc;
+}
+hr{
+height: 20px;
+}
+p{
+    font-size: 16px;
+    padding-left: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+main{
+    width: 100%;
+    height: 100%;
+    border-top: solid 2px #c6c6c6 ;
+}
+.cont{
+display: flex;
+ flex-wrap: wrap;
+justify-content: space-around;
+}
+.thumbnail img{
+width:340px;
+}
+.video-details{
+   display: flex;
+   flex-direction:column;
+}
+ .cr-img{
+    display: flex;
+    padding-right: 20px;
+    color: rgb(20, 101, 101);
+  
+}
+.video-details .title a{
+    font-size: 10px;
+    width: 40px;
+    text-decoration: none;
+}
+
